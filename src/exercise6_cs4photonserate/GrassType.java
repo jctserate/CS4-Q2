@@ -28,6 +28,7 @@ public class GrassType extends Monster{
         setMaxHP((int) (getMaxHP() * 1.2));
         System.out.printf("%s used their special move and increased their max hp to %d.\n", this.getName(), getMaxHP());
     }
+    // If special was just adding 20% of their maxHP to the pokemon's HP, it wouldn't be a special. It would be completely shadowed by rest().
 
 }
 
